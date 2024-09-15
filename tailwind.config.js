@@ -19,6 +19,9 @@ module.exports = {
         wheat:'#f6eee1',
         burn:'#fd5f38',
         mustard:'#fdad16'
+      },
+      listStyleType:{
+        shine:'url("/assets/shinefill.svg")'
       }
     }
   },
