@@ -110,7 +110,7 @@ function Activities(){
 
 export default function Home() {
   return (
-    <div className="min-w-full">
+    <div className="min-w-full bg-black top-0 absolute z-10">
       {title()}
       <div className="sm:inline-grid grid-cols-2 mb-10 gap-3 sm:gap-7 px-[5%] sm:px-[10%]">
         {Objectives()}
