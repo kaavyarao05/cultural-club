@@ -13,8 +13,14 @@ module.exports = {
       },
       transitionProperty:{
         'width':'width'
+      },
+      colors:{
+        olive:'#334b35',
+        wheat:'#f6eee1',
+        burn:'#fd5f38',
+        mustard:'#fdad16'
       }
-    },
+    }
   },
   plugins: [],
 };

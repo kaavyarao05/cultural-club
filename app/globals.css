@@ -26,40 +26,21 @@ body {
   }
 }
 
+h1{
+  font-size: 400%;
+  
+}
 h3{
   font-size: 45px;
+}
+h4{
+  font-size: 20px;
+  font-weight:900;
+  font-family:serif;
 }
 h6{
   font-size: 12px;
 }
-
-.clubbutton a{
-  background-color:#1e1d3c;
-  display: block;
-  padding: 30px;
-  width: 140px;
-  height: 150px;
-  text-align: center;
-  border-radius: 20px;
-  margin: auto;
-  margin-top: 20px;
-}
-
-.clubbutton a:hover{
-  background-color: #141326;
-  width: 500px;
-  height: 175px;
-  transition-property: width height;
-  transition-duration: 1s;
-}
-
-.clubbutton a:hover p{
-  color: #ffffff;
-  visibility: visible;
-  transition: all;
-  transition-duration: 1s;
-}
-.clubbutton p{
-  visibility: hidden;
-  color: #ffffff00;
+p{
+  font-size: 15px;
 }

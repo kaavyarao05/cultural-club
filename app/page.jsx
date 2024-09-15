@@ -1,32 +1,38 @@
 import Image from "next/image";
+import Shine from "@/assets/shine.svg"
+import ShineFill from "@/assets/shinefill.svg"
+
 
 function title(){
   return(
-    <div className="block p-20 text-center bg-blue-950">
-      <h3 className="font-serif text-yellow-400">Cultural Club</h3>
-      <h6>St Joseph Engineering College</h6>
+    <div className="block h-fit bg-black">
+      
+      {/*<Image className="absolute sm:-translate-y-1/4 -z-9 max-w-full" src={TitleImage} ></Image>*/}
+      <Image src={Shine} width={65} className='-hue-rotate-60 absolute mr-10 invert left-[10%] translate-y-32'></Image>
+      <Image src={ShineFill} width={26} className='-hue-rotate-60 absolute mr-10 invert left-[8%] translate-y-32'></Image>
+      <Image src={ShineFill} width={85} className='-hue-rotate-60 absolute mr-10 invert right-[3%] translate-y-60'></Image>
+      <Image src={ShineFill} width={30}  className='-hue-rotate-60 absolute mr-10 invert right-[3%] translate-y-60'></Image>
+      <div className="text-center px-5 py-40">
+        <h1 className="text-wheat font-serif drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] font-bold">Cultural Club</h1>
+        <h6 className="text-mustard -m-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] font-semibold font-mono">St Joseph Engineering College</h6>
+      </div>
     </div>
   )
 }
 
-function test(){
-  console.log("yay");
-}
-
 function clubButton(text){
   return(
-    <div className="clubbutton" >
-      <a href={text}>{text}
-      <p >Text</p></a>
+    <div className="text-black bg-mustard py-3 px-10">
+      <a href={text}>{text}</a>
     </div>
   )
 }
 
 function Objectives(){
   return(
-    <div>
-      <h4>Objectives</h4>
-      <p>
+    <div className="-my-5 ">
+      <h4 className="bg-mustard pt-3 px-5 rounded-t text-black">Objectives</h4>
+      <p className="py-3 px-5 bg-mustard font-serif font-extralight rounded-b text-black">
         To nurture the inclusive community through art, literature and culture.
         To mould the personality of students and expose them to a wide range of cultural
         events throughout the year. 
@@ -37,9 +43,9 @@ function Objectives(){
 
 function Responsibilities(){
   return(
-    <div>
-      <h4>Responsibilities</h4>
-      <p>
+    <div className="my-10 ">
+      <h4 className="bg-mustard pt-3 px-5 rounded-t text-black">Responsibilities</h4>
+      <p className="py-3 px-5 bg-mustard font-serif font-extralight rounded-b text-black">
         To conduct various competitions related to art, literature, music and dance. 
         To improve the communication and organizational skills of the club members. 
         To engage students in their interested club and encourage them to take part in 
@@ -73,15 +79,14 @@ function Activities(){
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-w-full">
       {title()}
-      {Objectives()}
-      {Responsibilities()}
-      {Activities()}
+      <div className="inline-grid grid-cols-2 gap-7 px-[10%]">
+        {Objectives()}
+        {Responsibilities()}
+      </div>
       <div>
-        {clubButton("Chitralekha")}
-        {clubButton("Abhaya")}
-        {clubButton("Sourabha")}
+        {Activities()}
       </div>
     </div>
   );
