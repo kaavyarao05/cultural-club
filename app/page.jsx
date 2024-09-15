@@ -8,13 +8,13 @@ function title(){
     <div className="block h-fit bg-black">
       
       {/*<Image className="absolute sm:-translate-y-1/4 -z-9 max-w-full" src={TitleImage} ></Image>*/}
-      <Image src={Shine} width={65} className='-hue-rotate-60 absolute mr-10 invert left-[10%] translate-y-32'></Image>
-      <Image src={ShineFill} width={26} className='-hue-rotate-60 absolute mr-10 invert left-[8%] translate-y-32'></Image>
-      <Image src={ShineFill} width={85} className='-hue-rotate-60 absolute mr-10 invert right-[3%] translate-y-60'></Image>
-      <Image src={ShineFill} width={30}  className='-hue-rotate-60 absolute mr-10 invert right-[3%] translate-y-60'></Image>
+      <Image src={Shine} width={65} className='-hue-rotate-60 absolute mr-10 invert sm:left-[10%] left-[14%] translate-y-32'></Image>
+      <Image src={ShineFill} width={26} className='-hue-rotate-60 absolute mr-10 invert sm:left-[8%] left-[10%] translate-y-32'></Image>
+      <Image src={ShineFill} width={80} className='-hue-rotate-60 absolute mr-10 invert -right-[8%] sm:right-[10%] translate-y-60'></Image>
+      <Image src={ShineFill} width={30}  className='-hue-rotate-60 absolute mr-10 invert -right-[8%] sm:right-[10%] translate-y-60'></Image>
       <div className="text-center px-5 py-40">
         <h1 className="text-wheat font-serif drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] font-bold">Cultural Club</h1>
-        <h6 className="text-mustard -m-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] font-semibold font-mono">St Joseph Engineering College</h6>
+        <h6 className="text-mustard -m-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] font-semibold font-mono">St Joseph Engineering College, Mangalore</h6>
       </div>
     </div>
   )
@@ -44,8 +44,8 @@ function Objectives(){
 function Responsibilities(){
   return(
     <div className="my-10 ">
-      <h4 className="bg-mustard pt-3 px-5 rounded-t text-black">Responsibilities</h4>
-      <p className="py-3 px-5 bg-mustard font-serif font-extralight rounded-b text-black">
+      <h4 className="bg-mustard pt-3 px-3 sm:px-5 rounded-t text-black">Responsibilities</h4>
+      <p className="py-3 px-3 sm:px-5 bg-mustard rounded-b text-black">
         To conduct various competitions related to art, literature, music and dance. 
         To improve the communication and organizational skills of the club members. 
         To engage students in their interested club and encourage them to take part in 
@@ -81,11 +81,11 @@ export default function Home() {
   return (
     <div className="min-w-full">
       {title()}
-      <div className="inline-grid grid-cols-2 gap-7 px-[10%]">
+      <div className="sm:inline-grid grid-cols-2 gap-3 sm:gap-7 px-[5%] sm:px-[10%]">
         {Objectives()}
         {Responsibilities()}
       </div>
-      <div>
+      <div className="bg-olive text-mustard">
         {Activities()}
       </div>
     </div>
