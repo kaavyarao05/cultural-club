@@ -8,12 +8,12 @@ function title(){
     <div className="block h-fit bg-black">
       
       {/*<Image className="absolute sm:-translate-y-1/4 -z-9 max-w-full" src={TitleImage} ></Image>*/}
-      <Image src={Shine} width={65} className='-hue-rotate-60 absolute mr-10 invert sm:left-[10%] left-[20%] translate-y-32'></Image>
-      <Image src={ShineFill} width={26} className='-hue-rotate-60 absolute mr-10 invert sm:left-[8%] left-[15%] translate-y-32'></Image>
-      <Image src={ShineFill} width={80} className='-hue-rotate-60 absolute mr-10 invert -right-[5%] sm:right-[10%] translate-y-60'></Image>
-      <Image src={ShineFill} width={30}  className='-hue-rotate-60 absolute mr-10 invert -right-[5%] sm:right-[10%] translate-y-60'></Image>
+      <Image src={Shine} width={65} className='-hue-rotate-60 absolute mr-10 invert sm:left-[10%] left-[20%] hover:scale-110 hover:rotate-45 transition:all translate-y-32'></Image>
+      <Image src={ShineFill} width={26} className='-hue-rotate-60 absolute mr-10 invert sm:left-[8%] left-[15%] hover:rotate-45 transition:all  translate-y-32'></Image>
+      <Image src={ShineFill} width={80} className='-hue-rotate-60 absolute mr-10 invert -right-[5%] sm:right-[10%]  hover:scale-110 hover:rotate-45 translate-y-60'></Image>
+      <Image src={ShineFill} width={30}  className='-hue-rotate-60 absolute mr-10 invert -right-[5%] sm:right-[8%] hover:rotate-45 transition:all  translate-y-60'></Image>
       <div className="text-center px-5 py-40">
-        <h1 className="text-wheat font-serif drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] font-bold">Cultural Club</h1>
+        <h1 className="hover:scale-105 transition-all text-wheat font-serif drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] font-bold">Cultural Club</h1>
         <h6 className="text-mustard -m-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] font-semibold font-mono">St Joseph Engineering College, Mangalore</h6>
       </div>
     </div>
@@ -22,8 +22,8 @@ function title(){
 
 function clubButton(text){
   return(
-    <div className="text-black bg-mustard py-3 px-10">
-      <a href={text}>{text}</a>
+    <div className="text-center">
+      <a className="font-serif font-extralight bg-mustard py-3 rounded" href={text}>{text}</a>
     </div>
   )
 }
@@ -31,8 +31,8 @@ function clubButton(text){
 function Objectives(){
   return(
     <div className="-my-5 ">
-      <h4 className="bg-mustard pt-3 px-5 rounded-t text-black">Objectives</h4>
-      <p className="py-3 px-5 bg-mustard font-serif font-extralight rounded-b text-black">
+      <h4 className="bg-mustard hover:text-olive transition-all pt-3 px-5 rounded-t text-black">Objectives</h4>
+      <p className="py-3 px-5 hover:text-olive transition-all bg-mustard font-serif font-extralight rounded-b text-black">
         To nurture the inclusive community through art, literature and culture.
         To mould the personality of students and expose them to a wide range of cultural
         events throughout the year. 
@@ -43,9 +43,9 @@ function Objectives(){
 
 function Responsibilities(){
   return(
-    <div className="my-10 ">
-      <h4 className="bg-mustard pt-3 px-3 sm:px-5 rounded-t text-black">Responsibilities</h4>
-      <p className="py-3 px-3 sm:px-5 bg-mustard font-serif font-extralight rounded-b text-black">
+    <div className="sm:my-20 my-10 sm:mb-0 mb-32">
+      <h4 className="bg-mustard hover:text-olive transition-all pt-3 px-3 sm:px-5 rounded-t text-black">Responsibilities</h4>
+      <p className="py-3 hover:text-olive transition-all px-3 sm:px-5 bg-mustard font-serif font-extralight rounded-b text-black">
         To conduct various competitions related to art, literature, music and dance. 
         To improve the communication and organizational skills of the club members. 
         To engage students in their interested club and encourage them to take part in 
@@ -68,7 +68,7 @@ function activitylist(title,date,text){
           {date}
         </div>
       </div>
-      <div className="text-mustard bg-black mx-2 p-2 text-sm rounded-b-xl">
+      <div className="text-mustard bg-black mx-2 leading-4 p-2 text-xs rounded-b-xl">
         {text}
       </div>
     </li>
@@ -79,12 +79,14 @@ function Activities(){
   return(
     <div className="font-serif font-extralight">
       <h4 className="text-center text-[35px] text-black translate-y-14 -translate-x-[3px]">Activities</h4>
-      <h4 className="text-center text-[35px] relative z-20">Activities</h4>
-      <p className=" px-[5%] font-serif font-extralight italic">
+      <h4 className="hover:scale-105 transition-all text-center text-[35px] relative z-20">Activities</h4>
+      <p className=" px-[5%] py-3 text-center font-serif font-extralight italic text-wheat leading-[18px]">
         Promoting a vibrant campus experience through organizing innumerable activities 
         pertaining to the performing arts and cultural activities bringing people from all 
         walks, interests, and ethnicity come together in ways that stimulate lifelong 
-        learning, and community interaction.
+        learning, and community interaction. <br />
+      </p>
+      <p className="px-[5%] py-3 text-center font-serif italic text-mustard leading-[18px]">
         The club has conducted the following activities in the year 2023-24 
       </p>
       <ul className="">
@@ -117,8 +119,18 @@ export default function Home() {
         {Responsibilities()}
       </div>
       <Image src={ArrowDown} width={200} className="invert absolute sm:-my-36 brightness-50 sm:visible invisible"></Image>
-      <div className="bg-olive text-mustard px-10 pt-10 py-10">
+      <div className="h-[10px] w-full bg-burn"/>
+      <div className="bg-olive text-mustard px-10 pt-10 py-8">  
         {Activities()}
+      </div>
+      <div className="h-[10px] w-full bg-burn"/>
+      <h1 id="Club-List" className="hover:scale-105 transition-all text-wheat font-serif drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] text-[50px] font-bold text-center mt-10">Clubs</h1>
+      <div className="flex justify-center my-10">
+        <div className=" grid grid-cols-1 sm:grid-cols-3 gap-4 gap-y-7">
+          {clubButton("Abhaya")}
+          {clubButton("Chitralekha")}
+          {clubButton("Sourabha")}
+        </div>
       </div>
     </div>
   );

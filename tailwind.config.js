@@ -15,7 +15,7 @@ module.exports = {
         'width':'width'
       },
       colors:{
-        olive:'#334b35',
+        olive:'#3b4b33',
         wheat:'#f6eee1',
         burn:'#fd5f38',
         mustard:'#fdad16'
