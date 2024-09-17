@@ -16,7 +16,7 @@ const page = () => {
       <Image src={ShineFill} width={80} className='-hue-rotate-60 absolute -ml-10 invert left-[20%] sm:left-[20%]  hover:scale-110 hover:rotate-45 translate-y-56'></Image>
       <Image src={ShineFill} width={30}  className='-hue-rotate-60 absolute -ml-10 invert left-[15%] sm:left-[20%] hover:rotate-45 transition:all  translate-y-56'></Image>
       <div className="text-center px-5 py-40">
-        <h1 className="hover:scale-105 transition-all text-wheat font-serif text-[40px] font-bold">Abhaya</h1>
+        <h1 className=" text-wheat font-serif text-[40px] font-bold">Abhaya</h1>
         <h6 className="text-mustard -m-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] font-semibold font-mono">Dance Club</h6>
       </div>
     </div>

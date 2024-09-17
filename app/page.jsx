@@ -13,7 +13,7 @@ function title(){
       <Image src={ShineFill} width={80} className='-hue-rotate-60 absolute mr-10 invert -right-[5%] sm:right-[10%]  hover:scale-110 hover:rotate-45 translate-y-60'></Image>
       <Image src={ShineFill} width={30}  className='-hue-rotate-60 absolute mr-10 invert -right-[5%] sm:right-[8%] hover:rotate-45 transition:all  translate-y-60'></Image>
       <div className="text-center px-5 py-40">
-        <h1 className="hover:scale-105 transition-all text-wheat font-serif drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] font-bold">Cultural Club</h1>
+        <h1 className=" text-wheat font-serif drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] font-bold">Cultural Club</h1>
         <h6 className="text-mustard -m-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] font-semibold font-mono">St Joseph Engineering College, Mangalore</h6>
       </div>
     </div>
@@ -77,7 +77,7 @@ function Activities(){
   return(
     <div className="font-serif font-extralight">
       <h4 className="text-center text-[45px] text-black translate-y-16 -translate-x-[3px]">Activities</h4>
-      <h4 className="hover:scale-105 transition-all text-center text-[45px] relative z-20">Activities</h4>
+      <h4 className="text-center text-[45px] relative z-20">Activities</h4>
       <p className=" px-[5%] py-3 text-center font-serif font-extralight italic text-wheat leading-[18px]">
         Promoting a vibrant campus experience through organizing innumerable activities 
         pertaining to the performing arts and cultural activities bringing people from all 
@@ -122,7 +122,7 @@ export default function Home() {
         {Activities()}
       </div>
       <div className="h-[10px] w-full bg-burn"/>
-      <h1 id="Club-List" className=" hover:scale-105 transition-all text-wheat font-serif drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] text-[50px] font-bold text-center mt-10">Clubs</h1>
+      <h1 id="Club-List" className="text-wheat font-serif drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] text-[50px] font-bold text-center mt-10">Clubs</h1>
       <Image src={Shine} width={65} className='-hue-rotate-60 absolute mr-10 invert sm:left-[10%] left-[10%] hover:scale-110 hover:rotate-45 sm:-translate-y-10 transition:all'></Image>
       <Image src={ShineFill} width={26} className='-hue-rotate-60 absolute invert sm:left-[8%] left-[8%] hover:rotate-45 transition:all sm:translate-y-2 translate-y-20'></Image>
       <Image src={ShineFill} width={80} className='-hue-rotate-60 absolute mr-10 invert -right-[3%] sm:right-[3%]  hover:scale-110 hover:rotate-45 sm:translate-y-0 translate-y-60'></Image>
