@@ -1,9 +1,10 @@
 import React from 'react'
+import SmallButton from './SmallButton'
 
 function Button(text,ref){
   return(
     <div className='inline-block'>
-    <a className="bg-burn mx-1 text-wheat hover:bg-olive px-5 border-4 border-wheat py-1 rounded-2xl font-mono font-extralight text-sm" href={ref}>{text}</a>
+    <SmallButton text={text} href={ref}></SmallButton>
     </div>
   )
 }

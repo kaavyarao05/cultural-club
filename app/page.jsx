@@ -5,7 +5,7 @@ import ArrowDown from "@/assets/arrowdown.svg"
 
 function title(){
   return(
-    <div className="block h-fit bg-black">
+    <div className="block h-fit">
       
       {/*<Image className="absolute sm:-translate-y-1/4 -z-9 max-w-full" src={TitleImage} ></Image>*/}
       <Image src={Shine} width={65} className='-hue-rotate-60 absolute mr-10 invert sm:left-[10%] left-[20%] hover:scale-110 hover:rotate-45 transition:all translate-y-32'></Image>
