@@ -6,7 +6,7 @@ const council = ({title,name}) => {
   return (
     <div>
     <div className="pt-10 pb-5 rounded-md first-letter:text-center text-burn font-serif font-extralight bg-wheat text-center">
-        <Image height={30} src={Shine} className='m-auto hover:rotate-45'></Image>
+        <Image alt="Shine" height={30} src={Shine} className='m-auto hover:rotate-45'></Image>
         <h4>{name}</h4>
         <p className='italic bottom-0'>{title}</p>
     </div>
