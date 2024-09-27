@@ -35,7 +35,7 @@ const page = () => {
       </div>
       </div>
         <div className='text-center py-10'>
-        <SmallButton  text="Instagram" href="https://www.instagram.com/chitralekha_sjec"/>
+        <SmallButton  text="Instagram" href="https://www.instagram.com/sourabha_sjec"/>
         </div>
     </div>
   )
