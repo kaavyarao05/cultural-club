@@ -13,8 +13,8 @@ function title(){
       <Image src={ShineFill} width={80} className='-hue-rotate-60 absolute mr-10 invert -right-[5%] sm:right-[10%]  hover:scale-110 hover:rotate-45 translate-y-60'></Image>
       <Image src={ShineFill} width={30}  className='-hue-rotate-60 absolute mr-10 invert -right-[5%] sm:right-[8%] hover:rotate-45 transition:all  translate-y-60'></Image>
       <div className="text-center px-5 py-40">
-        <h1 className=" text-wheat font-serif drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] font-bold">Cultural Club</h1>
-        <h6 className="text-mustard -m-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] font-semibold font-mono">St Joseph Engineering College, Mangalore</h6>
+        <h1 className=" text-wheat font-serif font-bold">Cultural Club</h1>
+        <h6 className="text-mustard -m-2 font-semibold font-mono">St Joseph Engineering College, Mangalore</h6>
       </div>
     </div>
   )
@@ -29,8 +29,8 @@ function clubButton(text){
 function Objectives(){
   return(
     <div className="-my-5 ">
-      <h4 className="bg-mustard hover:text-olive transition-all lg:mx-10 pt-3 px-5 rounded-t text-black">Objectives</h4>
-      <p className="py-3 px-5 hover:text-olive transition-all bg-mustard lg:mx-10 font-serif font-extralight rounded-b text-black">
+      <h4 className="bg-mustard text-olive transition-all lg:mx-10 pt-3 px-5 rounded-t ">Objectives</h4>
+      <p className="py-3 px-5 text-olive transition-all bg-mustard lg:mx-10 font-serif font-extralight rounded-b ">
         To nurture the inclusive community through art, literature and culture. <br />
         To mould the personality of students and expose them to a wide range of cultural
         events throughout the year. 
@@ -42,8 +42,8 @@ function Objectives(){
 function Responsibilities(){
   return(
     <div className="sm:my-20 my-10 sm:mb-0 mb-32">
-      <h4 className="bg-mustard hover:text-olive lg:mx-10 transition-all pt-3 px-3 sm:px-5 rounded-t text-black">Responsibilities</h4>
-      <p className="py-3 hover:text-olive transition-all lg:mx-10 px-3 sm:px-5 bg-mustard font-serif font-extralight rounded-b text-black">
+      <h4 className="bg-mustard text-olive lg:mx-10 transition-all pt-3 px-3 sm:px-5 rounded-t ">Responsibilities</h4>
+      <p className="py-3 text-olive transition-all lg:mx-10 px-3 sm:px-5 bg-mustard font-serif font-extralight rounded-b">
         To conduct various competitions related to art, literature, music and dance. <br />
         To improve the communication and organizational skills of the club members. <br />
         To engage students in their interested club and encourage them to take part in 
@@ -88,21 +88,21 @@ function Activities(){
         The club has conducted the following activities in the year 2023-24 
       </p>
       <ul className="">
-          <div className="sm:mr-[30%] mr-[8%]">
+          <a className="sm:mr-[30%] sm:block">
             {activitylist("Inauguration of the clubs","5 April 2024 ")}
-          </div>
-          <div className="sm:ml-[30%] ml-[8%]">
+          </a>
+          <a className="sm:ml-[30%] sm:block">
             {activitylist("Art exhibition for Tiara","9 May 2024 - 11 May 2024")}
-          </div>
-          <div className="sm:mr-[30%] mr-[8%]">
-            {activitylist("World Environment Day","5 June 2024 ","Competitions like face painting, short movie and nature photography on account of World Environment Day")}
-          </div>
-          <div className="sm:ml-[30%] ml-[8%]">
-            {activitylist("World Environment Day"," 7 June 2024 ","Talk on “Environmental Sustainability on Khadi and Handloom sector” on the account of the world environment day")}
-          </div>
-          <div className="sm:mr-[30%] mr-[8%]">
+          </a>
+          <a className="sm:mr-[30%] sm:block">
+            {activitylist("World Environment Day I","5 June 2024 ","Competitions like face painting, short movie and nature photography on account of World Environment Day")}
+          </a>
+          <a className="sm:ml-[30%] sm:block">
+            {activitylist("World Environment Day II"," 7 June 2024 ","Talk on “Environmental Sustainability on Khadi and Handloom sector” on the account of the world environment day")}
+          </a>
+          <a href="/TeachersDay" className="sm:mr-[30%] mx-[4%] mr-[8%] block">
             {activitylist("Teachers’ Day Celebration","5 September 2024")}
-          </div>
+          </a>
         </ul>
     </div>
   )
