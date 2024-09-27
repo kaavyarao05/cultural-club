@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Shine from '@/assets/shine.svg'
 
-const council = ({title,name}) => {
+const council = ({title,name,image}) => {
   return (
     <div>
     <div className="pt-10 pb-5 rounded-md first-letter:text-center text-burn font-serif font-extralight bg-wheat text-center">
