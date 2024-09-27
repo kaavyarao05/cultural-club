@@ -13,8 +13,8 @@ import Img8 from '@/public/teachersday/8.jpeg'
 const page = () => {
   return (
     <div>
-        <h3 className="text-center my-12 text-wheat font-serif font-bold">Teacher's Day</h3>
-        <div className='grid gap-y-5 mx-6 my-8 m-auto justify-center'>
+        <h3 className="text-center my-12 text-wheat font-serif font-bold">Teachers Day</h3>
+        <div className="grid gap-y-5 mx-6 my-8 m-auto justify-center">
             <Image unoptimised alt="Teachers Day" src={Img8} width={640} height={427}></Image>
             <Image unoptimised alt="Teachers Day" src={Img7} width={640} height={427}></Image>
             <Image unoptimised alt="Teachers Day" src={Img6} width={640} height={427}></Image>
