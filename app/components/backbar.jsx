@@ -1,6 +1,5 @@
 import React from 'react'
 import SmallButton from './SmallButton'
-import img1 from '@/public/1.jpeg'
 
 const Backbar = () => {
   return (
@@ -9,7 +8,7 @@ const Backbar = () => {
             <SmallButton text={"Go To Top"} href={"#Head"}></SmallButton>
         </div>
         <div className='w-full h-3 bg-wheat'>
-            
+
         </div>
     </div>
   )
