@@ -11,7 +11,7 @@ function title(){
       {/*<Image className="absolute sm:-translate-y-1/4 -z-9 max-w-full" src={TitleImage} ></Image>*/}
       <Image src={Shine} width={65} className='-hue-rotate-60 absolute mr-10 invert sm:left-[10%] left-[20%] hover:scale-110 hover:rotate-45 transition:all translate-y-32'></Image>
       <Image src={ShineFill} width={26} className='-hue-rotate-60 absolute mr-10 invert sm:left-[8%] left-[15%] hover:rotate-45 transition:all  translate-y-32'></Image>
-      <Image src={ShineFill} width={80} className='-hue-rotate-60 absolute mr-10 invert -right-[5%] sm:right-[10%]  hover:scale-110 hover:rotate-45 translate-y-60'></Image>
+      <Image src={ShineFill} width={80} className='-hue-rotate-60 absolute mr-12 invert -right-[5%] sm:right-[10%]  hover:scale-110 hover:rotate-45 translate-y-60'></Image>
       <Image src={ShineFill} width={30}  className='-hue-rotate-60 absolute mr-10 invert -right-[5%] sm:right-[8%] hover:rotate-45 transition:all  translate-y-60'></Image>
       <div className="text-center px-5 py-40">
         <h1 className=" text-wheat font-serif font-bold">Cultural Club</h1>
