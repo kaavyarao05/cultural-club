@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Shine from "@/assets/shine.svg"
 import ShineFill from "@/assets/shinefill.svg"
-import Img1 from "@/public/Inaugration/inaugration.jpeg"
+import Img1 from "@/public/inaugration/inaugration.jpeg"
 
 const page = () => {
   return (

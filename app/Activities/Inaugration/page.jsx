@@ -2,7 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import Shine from "@/assets/shine.svg"
 import ShineFill from "@/assets/shinefill.svg"
-import Img1 from "@/public/Inaugration/inaugration.jpeg"
+import Img1 from "@/public/inaugration/inaugration.jpeg"
+import Polaroid from '@/app/components/polaroid'
 
 const page = () => {
   return (
@@ -19,6 +20,7 @@ const page = () => {
     </div>
         <div className="grid gap-y-5 mx-6 py-5 m-auto justify-center">
         <Image alt="Teachers Day" src={Img1} width={640} height={427}></Image>
+        <Polaroid className='rotate-3' src={Img1} width={640} height={427} caption={"hi"}></Polaroid>
         </div>
     </div>
     
