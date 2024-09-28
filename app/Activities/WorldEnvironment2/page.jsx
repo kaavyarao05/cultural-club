@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Shine from "@/assets/shine.svg"
 import ShineFill from "@/assets/shinefill.svg"
 import Img1 from "@/public/inaugration/inaugration.jpeg"
+import Polaroid from '@/app/components/polaroid'
 
 const page = () => {
   return (
@@ -17,8 +18,8 @@ const page = () => {
         <h6 className="text-mustard -m-2 font-semibold font-mono">7 June 2024</h6>
       </div>
     </div>
-        <div className="grid gap-y-5 mx-6 py-5 m-auto justify-center">
-        <Image alt="Teachers Day" src={Img1} width={640} height={427}></Image>
+        <div className="grid gap-y-5 mx-10 pb-12 py-5 m-auto justify-center">
+        <Polaroid className={"-rotate-3"} alt="Teachers Day" src={Img1} width={640} height={427}></Polaroid>
         </div>
     </div>
     

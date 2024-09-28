@@ -18,9 +18,8 @@ const page = () => {
         <h6 className="text-mustard -m-2 font-semibold font-mono">5 April 2024</h6>
       </div>
     </div>
-        <div className="grid gap-y-5 mx-6 py-5 m-auto justify-center">
-        <Image alt="Teachers Day" src={Img1} width={640} height={427}></Image>
-        <Polaroid className='rotate-3' src={Img1} width={640} height={427} caption={"hi"}></Polaroid>
+        <div className="grid gap-y-5 mx-10 pb-12 py-5 m-auto justify-center">
+        <Polaroid className='rotate-3' src={Img1} width={640} height={427}></Polaroid>
         </div>
     </div>
     

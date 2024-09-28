@@ -26,7 +26,7 @@ const page = () => {
         <h6 className="text-mustard -m-2 font-semibold font-mono">5 September 2024</h6>
       </div>
     </div>
-        <div className="grid gap-y-5 mx-10 py-5 m-auto justify-center">
+        <div className="grid gap-y-5 mx-10 pb-12 py-5 m-auto justify-center">
             <Polaroid alt="Teachers Day" src={Img8} width={640} height={427} className={"rotate-3"}></Polaroid>
             <Polaroid alt="Teachers Day" src={Img7} width={640} height={427} className={"-rotate-3"}></Polaroid>
             <Polaroid alt="Teachers Day" src={Img6} width={640} height={427} className={"rotate-3"}></Polaroid>
