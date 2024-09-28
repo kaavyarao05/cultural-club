@@ -30,13 +30,12 @@ function Objectives(){
   return(
     <div className="-my-5 ">
       <h4 className="bg-mustard text-olive transition-all lg:mx-10 pt-3 px-5 rounded-t ">Objectives</h4>
-      <div className="pl-5 py-3 px-5 text-olive transition-all bg-mustard lg:mx-10 font-serif font-extralight rounded-b ">
+      <div className="pl-8 py-3 px-5 text-olive transition-all bg-mustard lg:mx-10 font-serif font-extralight rounded-b ">
         <ul className="list-square">
           <li>
         To nurture the inclusive community through art, literature and culture. 
         </li><li>
-        To mould the personality of students and expose them to a wide range of cultural
-        events throughout the year. 
+        To mould the personality of students and expose them to a wide range of culturalevents throughout the year. 
         </li>
         </ul>
       </div>
@@ -48,12 +47,12 @@ function Responsibilities(){
   return(
     <div className="sm:my-20 my-10 sm:mb-0 mb-32">
       <h4 className="bg-mustard text-olive lg:mx-10 transition-all pt-3 px-3 sm:px-5 rounded-t ">Responsibilities</h4>
-      <div className="py-3 pl-5 text-olive transition-all lg:mx-10 px-3 sm:px-5 bg-mustard font-serif font-extralight rounded-b">
+      <div className="py-3 pl-8 text-olive transition-all lg:mx-10 px-5 bg-mustard font-serif font-extralight rounded-b">
       <ul className="list-square">
         <li>
-        To conduct various competitions related to art, literature, music and dance. <br />
+        To conduct various competitions related to art, literature, music and dance.
         </li><li>
-        To improve the communication and organizational skills of the club members. <br />
+        To improve the communication and organizational skills of the club members.
         </li><li>
         To engage students in their interested club and encourage them to take part in 
         various cultural activities.
