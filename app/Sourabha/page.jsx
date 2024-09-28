@@ -9,7 +9,7 @@ import ArrowDown from "@/assets/arrowdown.svg"
 
 const page = () => {
   return (
-    <div className='bg-black top-0 absolute z-10 min-w-full'>
+    <div className='bg-black top-0 z-10 min-w-full'>
       <div className="block h-fit">
       <Image alt="Shine symbol outline" src={Shine} width={65} className='-hue-rotate-60 absolute mr-10 invert sm:right-[13%] -right-[1%] hover:scale-110 hover:rotate-45 transition:all translate-y-28'></Image>
       <Image alt="Shine symbol" src={ShineFill} width={26} className='-hue-rotate-60 absolute mr-10 invert sm:right-[10%] -right-[2%] hover:rotate-45 transition:all  translate-y-28'></Image>
@@ -34,7 +34,7 @@ const page = () => {
           <Council name="Gagan C Rao" title="EEE"/>
       </div>
       </div>
-        <div className='text-center py-10'>
+        <div className='text-center py-20'>
         <SmallButton  text="Instagram" href="https://www.instagram.com/sourabha_sjec"/>
         </div>
     </div>

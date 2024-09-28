@@ -3,6 +3,7 @@ import Shine from "@/assets/shine.svg"
 import ShineFill from "@/assets/shinefill.svg"
 import ArrowDown from "@/assets/arrowdown.svg"
 
+
 function title(){
   return(
     <div className="block h-fit">

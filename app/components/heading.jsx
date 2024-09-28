@@ -12,7 +12,7 @@ function Button(text,ref){
 
 const Heading = () => {
   return (
-    <div className='relative z-50'> 
+    <div id="Head" className='relative z-50 bg-black'> 
       <div className='bg-wheat absolute w-full -z-10 h-[16px] text-black'/>
       <div className='py-1 px-3'>
         {Button("Home","/")}
