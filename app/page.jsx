@@ -121,7 +121,7 @@ function Activities(){
 
 export default function Home() {
   return (
-    <div className="min-w-full bg-black top-0 absolute z-10">
+    <div className="min-w-full bg-black top-0 z-10">
       {title()}
       <div className="sm:inline-grid grid-cols-2 sm:mb-32 mb-40 gap-3 lg:gap-0 sm:gap-7 px-[5%] lg:px-[20%] sm:px-[10%]">
         {Objectives()}
@@ -138,7 +138,7 @@ export default function Home() {
       <Image src={ShineFill} width={26} className='-hue-rotate-60 absolute invert sm:left-[8%] left-[8%] hover:rotate-45 transition:all sm:translate-y-2 translate-y-20'></Image>
       <Image src={ShineFill} width={80} className='-hue-rotate-60 absolute mr-10 invert -right-[3%] sm:right-[3%]  hover:scale-110 hover:rotate-45 sm:translate-y-0 translate-y-60'></Image>
       <Image src={ShineFill} width={30}  className='-hue-rotate-60 absolute mr-10 invert -right-[5%] sm:right-[3%] hover:rotate-45 sm:translate-y-0 transition:all  translate-y-60'></Image>
-      <div className="flex justify-center mb-32 my-10">
+      <div className="flex justify-center pb-32 py-10">
         <div className="">
           {clubButton("Abhaya")}
           {clubButton("Chitralekha")}
