@@ -21,6 +21,7 @@ module.exports = {
         mustard:'#fdad16'
       },
       listStyleType:{
+        square:'square',
         shine:'url("/assets/shinefill.svg")'
       }
     }

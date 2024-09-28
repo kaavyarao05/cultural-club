@@ -30,11 +30,16 @@ function Objectives(){
   return(
     <div className="-my-5 ">
       <h4 className="bg-mustard text-olive transition-all lg:mx-10 pt-3 px-5 rounded-t ">Objectives</h4>
-      <p className="py-3 px-5 text-olive transition-all bg-mustard lg:mx-10 font-serif font-extralight rounded-b ">
-        To nurture the inclusive community through art, literature and culture. <br />
+      <div className="pl-5 py-3 px-5 text-olive transition-all bg-mustard lg:mx-10 font-serif font-extralight rounded-b ">
+        <ul className="list-square">
+          <li>
+        To nurture the inclusive community through art, literature and culture. 
+        </li><li>
         To mould the personality of students and expose them to a wide range of cultural
         events throughout the year. 
-      </p>
+        </li>
+        </ul>
+      </div>
     </div>
   )
 }
@@ -43,12 +48,18 @@ function Responsibilities(){
   return(
     <div className="sm:my-20 my-10 sm:mb-0 mb-32">
       <h4 className="bg-mustard text-olive lg:mx-10 transition-all pt-3 px-3 sm:px-5 rounded-t ">Responsibilities</h4>
-      <p className="py-3 text-olive transition-all lg:mx-10 px-3 sm:px-5 bg-mustard font-serif font-extralight rounded-b">
+      <div className="py-3 pl-5 text-olive transition-all lg:mx-10 px-3 sm:px-5 bg-mustard font-serif font-extralight rounded-b">
+      <ul className="list-square">
+        <li>
         To conduct various competitions related to art, literature, music and dance. <br />
+        </li><li>
         To improve the communication and organizational skills of the club members. <br />
+        </li><li>
         To engage students in their interested club and encourage them to take part in 
         various cultural activities.
-      </p>
+        </li>
+        </ul>
+      </div>
     </div>
   )
 }
@@ -88,16 +99,16 @@ function Activities(){
         The club has conducted the following activities in the year 2023-24 
       </p>
       <ul className="">
-          <a className="sm:mr-[30%] sm:block">
+          <a href="/Activities/Inaugration" className="sm:mr-[30%] sm:block">
             {activitylist("Inauguration of the clubs","5 April 2024 ")}
           </a>
-          <a className="sm:ml-[30%] sm:block">
+          <a href="/Activities/TiaraExhibition" className="sm:ml-[30%] sm:block">
             {activitylist("Art exhibition for Tiara","9 May 2024 - 11 May 2024")}
           </a>
-          <a className="sm:mr-[30%] sm:block">
+          <a href="/Activities/WorldEnvironment1" className="sm:mr-[30%] sm:block">
             {activitylist("World Environment Day I","5 June 2024 ","Competitions like face painting, short movie and nature photography on account of World Environment Day")}
           </a>
-          <a className="sm:ml-[30%] sm:block">
+          <a href="/Activities/WorldEnvironment2" className="sm:ml-[30%] sm:block">
             {activitylist("World Environment Day II"," 7 June 2024 ","Talk on “Environmental Sustainability on Khadi and Handloom sector” on the account of the world environment day")}
           </a>
           <a href="/Activities/TeachersDay" className="sm:mr-[30%] mx-[4%] mr-[8%] block">
