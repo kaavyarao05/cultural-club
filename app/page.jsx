@@ -111,7 +111,7 @@ function Activities(){
           <a href="/Activities/WorldEnvironment2" className="sm:ml-[30%] sm:block">
             {activitylist("World Environment Day II"," 7 June 2024 ","Talk on “Environmental Sustainability on Khadi and Handloom sector” on the account of the world environment day")}
           </a>
-          <a href="/Activities/TeachersDay" className="sm:mr-[30%] mx-[4%] mr-[8%] block">
+          <a href="/Activities/TeachersDay" className="sm:mr-[30%] block">
             {activitylist("Teachers’ Day Celebration","5 September 2024")}
           </a>
         </ul>
