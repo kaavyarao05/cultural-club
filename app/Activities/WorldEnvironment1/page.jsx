@@ -19,7 +19,7 @@ const page = () => {
       </div>
     </div>
         <div className="grid gap-y-5 mx-10 pb-12 py-5 m-auto justify-center">
-        <Polaroid className={"rotate-3"} alt="Teachers Day" src={Img1} width={640} height={427}></Polaroid>
+        <Polaroid className={"right-polaroid"} alt="Teachers Day" src={Img1} width={640} height={427}></Polaroid>
         </div>
     </div>
     

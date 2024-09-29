@@ -46,3 +46,20 @@ p{
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-weight: 200;
 }
+.right-polaroid{
+  transform: rotate(3deg);
+  transition: all;
+  transition-duration: 300ms;
+}
+.right-polaroid:hover{
+  transform: rotate(1deg);
+}
+
+.left-polaroid{
+  transform: rotate(-3deg);
+  transition: all;
+  transition-duration: 300ms;
+}
+.left-polaroid:hover{
+  transform: rotate(-1deg);
+}

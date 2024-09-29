@@ -27,14 +27,14 @@ const page = () => {
       </div>
     </div>
         <div className="grid gap-y-5 mx-10 pb-12 py-5 m-auto justify-center">
-            <Polaroid alt="Teachers Day" src={Img8} width={640} height={427} className={"rotate-3"}></Polaroid>
-            <Polaroid alt="Teachers Day" src={Img7} width={640} height={427} className={"-rotate-3"}></Polaroid>
-            <Polaroid alt="Teachers Day" src={Img6} width={640} height={427} className={"rotate-3"}></Polaroid>
-            <Polaroid alt="Teachers Day" src={Img5} width={640} height={427} className={"-rotate-3"}></Polaroid>
-            <Polaroid alt="Teachers Day" src={Img4} width={640} height={427} className={"rotate-3"}></Polaroid>
-            <Polaroid alt="Teachers Day" src={Img3} width={640} height={427} className={"-rotate-3"}></Polaroid>
-            <Polaroid alt="Teachers Day" src={Img2} width={640} height={427} className={"rotate-3"}></Polaroid>
-            <Polaroid alt="Teachers Day" src={Img1} width={640} height={427} className={"-rotate-3"}></Polaroid>
+            <Polaroid alt="Teachers Day" src={Img8} width={640} height={427} className={"right-polaroid"}></Polaroid>
+            <Polaroid alt="Teachers Day" src={Img7} width={640} height={427} className={"left-polaroid"}></Polaroid>
+            <Polaroid alt="Teachers Day" src={Img6} width={640} height={427} className={"right-polaroid"}></Polaroid>
+            <Polaroid alt="Teachers Day" src={Img5} width={640} height={427} className={"left-polaroid"}></Polaroid>
+            <Polaroid alt="Teachers Day" src={Img4} width={640} height={427} className={"right-polaroid"}></Polaroid>
+            <Polaroid alt="Teachers Day" src={Img3} width={640} height={427} className={"left-polaroid"}></Polaroid>
+            <Polaroid alt="Teachers Day" src={Img2} width={640} height={427} className={"right-polaroid"}></Polaroid>
+            <Polaroid alt="Teachers Day" src={Img1} width={640} height={427} className={"left-polaroid"}></Polaroid>
         </div>
     </div>
     
